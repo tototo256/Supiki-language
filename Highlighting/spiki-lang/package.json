@@ -2,7 +2,7 @@
     "name": "spiki",
     "displayName": "SpikiLang Support",
     "version": "1.0.0",
-    "publisher": "tonoe",
+    "publisher": "neon_0256",
     "engines": {
         "vscode": "^1.50.0"
     },
