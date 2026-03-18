@@ -1,10 +1,10 @@
 # SpikiLang (スピキ言語)
 
-> **「ｽﾋﾟｷｦｲｼﾞﾒﾇﾝﾃﾞ」**
+**ｽﾋﾟｷｦｲｼﾞﾒﾇﾝﾃﾞ**
 
 Brainfuckベースの言語です。
 
-## 🛠️ 命令セット (Vocabulary)
+Vocabulary
 
 | 語録 | 対応命令 | 内容 |
 | :--- | :---: | :--- |
@@ -20,10 +20,16 @@ Brainfuckベースの言語です。
 | `ﾈﾙﾇｲﾛｯﾀﾞｲﾛｯｹﾎﾟﾝﾆｮｸ...` | `p` | 現在の値を **数値** として出力 |
 | `ﾃﾞﾙｼﾞﾊﾞｾﾞﾖ!` | `q` | プログラムを終了する |
 
-## 🚀 使い方
+## 使い方
 
-### 1. 実行
+### 実行
 `.ｽﾋﾟｷ!` ファイルを作成し、コンパイラを実行します。
 ```bash
 python spiki_compiler.py your_code.ｽﾋﾟｷ!
+
 spiki_compiler.exe your_code.ｽﾋﾟｷ!
+```
+
+### VScodeでシンタックスハイライトをつける
+Hilightingの中にある `%USERPROFILE%\.vscode\extensions`直下に`spiki-lang`を置いてください
+
