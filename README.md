@@ -4,7 +4,7 @@
 
 Brainfuckベースの言語です。
 
-Vocabulary
+# Vocabulary
 
 | 語録 | 対応命令 | 内容 |
 | :--- | :---: | :--- |
