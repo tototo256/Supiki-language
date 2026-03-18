@@ -2,7 +2,7 @@
 
 **ｽﾋﾟｷｦｲｼﾞﾒﾇﾝﾃﾞ**
 
-Brainfuckベースの言語です。
+Brainfuckベース(丸パクり)の言語です。
 
 # Vocabulary
 
