@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "SpikiLang",
+  "scopeName": "source.spiki",
+  "patterns": [
+    {
+      "name": "comment.block.spiki",
+      "begin": "ｱｰｳ",
+      "end": "ｱｰｳ"
+    },
+    {
+      "name": "keyword.control.spiki",
+      "match": "ﾁｮﾜﾖｰﾁｮﾜﾖｰﾑﾙｺﾞﾜﾚｯｼﾞﾁｮﾜﾖｰ|ﾁｮﾜﾖｰﾁｮﾜﾖｰﾎﾊﾞｷﾞﾁｮﾜﾖｰ|ﾁｮﾜﾖｰﾁｮﾜﾖｰｿﾝﾊﾞｺｯﾁﾁｮﾜﾖｰ|ﾁｮﾜﾖｰ!|ﾁｮﾜﾖｰ"
+    },
+    {
+      "name": "entity.name.function.spiki",
+      "match": "ｽﾋﾟｷ!|ｽﾋﾟｷﾃﾞﾙｼﾞﾊﾞｾﾞﾖ!"
+    },
+    {
+      "name": "keyword.operator.spiki",
+      "match": "ｱ!|ｳﾜｧｧ!"
+    },
+    {
+      "name": "support.function.spiki",
+      "match": "ｽﾋﾟｷﾓﾘﾁｬﾊﾞﾀﾞﾝｷﾞｼﾞﾊﾞｾﾞﾖ!|ｽﾋﾟｷｦｲｼﾞﾒﾇﾝﾃﾞ"
+    },
+    {
+      "name": "invalid.illegal.spiki",
+      "match": "ﾈﾙﾇｲﾛｯﾀﾞｲﾛｯｹﾎﾟﾝﾆｮｸﾁｮｷﾞﾖｯｶﾘｱﾆﾗﾝﾏﾙｲｴﾖ!|ﾃﾞﾙｼﾞﾊﾞｾﾞﾖ!"
+    }
+  ]
+}

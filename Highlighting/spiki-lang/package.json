@@ -1,0 +1,34 @@
+{
+    "name": "spiki",
+    "displayName": "SpikiLang Support",
+    "version": "1.0.0",
+    "publisher": "tonoe",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "spiki",
+                "aliases": [
+                    "SpikiLang",
+                    "spiki"
+                ],
+                "extensions": [
+                    ".ｽﾋﾟｷ!"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "spiki",
+                "scopeName": "source.spiki",
+                "path": "./syntaxes/spiki.tmLanguage.json"
+            }
+        ]
+    }
+}
